@@ -1,0 +1,27 @@
+.color-1 { color: rgb(0, 0, 0); }
+.color-2 { color: rgb(255, 255, 255); }
+.color-3 { color: rgb(110, 110, 110); }
+.color-4 { color: rgb(130, 130, 130); }
+.color-5 { color: rgb(215, 215, 215); }
+.color-6 { color: rgba(242, 242, 242, 1); }
+.color-7 { color: rgba(242, 204, 201, 1);}
+
+    
+.bgcolor-1 { background-color: rgb(0, 0, 0); }
+.bgcolor-2 { background-color: rgb(255, 255, 255); }
+.bgcolor-3 { background-color: rgba(110, 110, 110); }
+.bgcolor-4 { background-color: rgb(130, 130, 130); }
+.bgcolor-5 { background-color: rgb(215, 215, 215); }
+.bgcolor-6 { background-color: rgba(242, 242, 242, 1); }
+.bgcolor-7 { background-color: rgba(242, 204, 201, 1);}
+
+
+
+
+/* Color Theme Swatches in RGBA */
+.light-soft-panorama-sunset-sky-background-with-pink-clouds-1-rgba { color: rgba(152, 150, 165, 1); }
+.light-soft-panorama-sunset-sky-background-with-pink-clouds-2-rgba { color: rgba(166, 188, 216, 1); }
+.light-soft-panorama-sunset-sky-background-with-pink-clouds-3-rgba { color: rgba(242, 237, 213, 1); }
+.light-soft-panorama-sunset-sky-background-with-pink-clouds-4-rgba { color: rgba(242, 242, 242, 1); }
+.light-soft-panorama-sunset-sky-background-with-pink-clouds-5-rgba { color: rgba(242, 204, 201, 1); }
+
