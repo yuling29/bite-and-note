@@ -1,7 +1,7 @@
 # Bite & Note 
 Bite & Note 是一個結合美食與筆記的個人網站。該網站以簡潔直覺的排版呈現，使用 HTML、CSS 與 JavaScript 製作，並部署於 GitHub Pages。
 ##  網站連結
-[點我造訪網站](https://yuling29.github.io/bite-and-note/)
+[點我造訪網站](https://yuling29.github.io/bite-and-note/index.html)
 ##  功能特色
 - 美食筆記圖文並茂，內容可隨時擴充
 - 響應式設計，支援手機與電腦瀏覽
