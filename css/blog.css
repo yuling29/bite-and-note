@@ -1,15 +1,3 @@
-.blog-page-title {
-    text-align: center;
-    position: absolute;
-    top: 85%;
-    left: 50%;
-    transform: translate(-50%, -85%);
-    font-family: "Righteous", sans-serif;
-    font-size: xx-large;
-    /* font-weight: bold; */
-    color: rgb(100, 100, 100);
-}
-
 .blog-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -44,21 +32,17 @@
 .blog-title {
     font-size: 1.5rem;
     margin: 0 0 10px;
-    color: #333;
-    /* color: rgb(110, 110, 110); */
+    color: rgb(63, 63, 63);
 }
 .blog-date {
     font-size: 0.9rem;
-    color: #777;
-    /* color: rgb(114, 114, 114); */
+    color: rgb(140, 140, 140);
     margin-bottom: 15px;
 }
 .blog-description {
     font-size: 1rem;
-    color: #555;
-    /* margin-bottom: 15px; */
+    color: rgb(63, 63, 63);
 }
-
 
 .blog-content hr {
     position: absolute;
@@ -66,10 +50,10 @@
     left: 0;
     right: 0;
     margin: 0 10px;
-    border-color: rgb(90, 90, 90);
+    border-color: rgb(63, 63, 63);
 }
 .blog-footer {
-    color: #777;
+    color: rgb(140, 140, 140);
     position: absolute;
     bottom: 10px;
     left: 15px;
@@ -79,10 +63,10 @@
     align-items: center;
 }
 .blog-footer .like-btn {
-    color: #777;
+    color: rgb(140, 140, 140);
 }
 .like-btn.liked {
-    color: red;
+    color: rgb(211, 47, 47);
 }
 
 @media (max-width: 575px) {

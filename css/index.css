@@ -14,7 +14,7 @@ body {
 
 a {
     text-decoration: none;
-    color: rgb(110, 110, 110);
+    color: rgb(242, 242, 242);
 }
 
 ul {
@@ -30,7 +30,6 @@ ul {
     right: 20px;
     width: 35px;
     height: 35px;
-    background-color: rgb(185, 185, 185);
     border: none;
     border-radius: 50%;
     font-size: 1rem;
@@ -47,7 +46,7 @@ ul {
 }
 
 .back-to-top:hover {
-    background-color: rgb(170, 170, 170);
+    background-color: rgb(165, 165, 165);
 }
 
 .back-to-top.show {
@@ -73,7 +72,7 @@ main {
     left: 0;
     width: 100%;
     z-index: 10;
-    background-color: rgba(130, 130, 130);
+    font-family: "Righteous", sans-serif;
     /* transition: background-color 0.3s ease, */
 }
 
@@ -82,12 +81,8 @@ main {
     float: right;
 }
 
-.web-nav .web-navigation a {
-    color: rgb(215, 215, 215);
-}
-
 .web-nav .web-navigation .web-menu a:hover {
-    color: rgb(85, 85, 85);
+    color: rgb(165, 165, 165);
 }
 
 .web-nav .web-navigation .web-menu>li {
@@ -107,7 +102,6 @@ main {
     min-width: 150px;
     width: auto;
     white-space: nowrap;
-    background-color: rgba(130, 130, 130);
 }
 
 .web-nav .web-menu .dropdown:hover>.dropdownmenu {
@@ -149,7 +143,6 @@ main {
     right: -100%;
     width: 100%;
     z-index: 1200;
-    background: #ffffff;
     height: 100%;
     transition: right 0.3s ease-in-out;
     /* 添加動畫效果 */
@@ -183,6 +176,7 @@ main {
 .mobile-menu-list li a {
     display: inline-block;
     padding: 10px;
+    color: rgba(63, 63, 63);
 }
 
 .mobile-menu .dropdown span {
@@ -198,18 +192,14 @@ main {
 
 footer {
     width: 100%;
-}
-
-footer a {
-    color: rgb(215, 215, 215);
+    font-family: "Righteous", "Cal Sans", sans-serif;
 }
 
 footer a:hover {
-    color: rgb(85, 85, 85);
+    color: rgb(165, 165, 165);
 }
 
 .footer-title {
-    /* color: rgb(80, 80, 80); */
     text-align: center;
     padding-bottom: 8px;
 }
@@ -220,8 +210,8 @@ footer a:hover {
 }
 
 .footer-social a {
-    background-color: rgb(215, 215, 215);
-    color: rgb(155, 155, 155);
+    background-color: rgb(140, 140, 140);
+    color: rgb(242, 242, 242);
     margin: 0 3px;
     width: 32px;
     height: 32px;
@@ -240,7 +230,7 @@ footer a:hover {
 
 .sec1 {
     height: 300px;
-    background-image: linear-gradient(to bottom, rgb(210, 210, 210), white);
+    background-image: linear-gradient(to bottom, rgb(165, 165, 165), rgb(242, 242, 242));
     position: relative;
     margin-bottom: 50px;
 }
@@ -253,10 +243,12 @@ footer a:hover {
     transform: translate(-50%, -10%);
     font-family: "Righteous", sans-serif;
     font-size: 1.4rem;
-    /* font-weight: bold; */
-    color: rgb(100, 100, 100);
     display: flex;
     flex-direction: column;
+}
+
+.sec1 .page-title span {
+    letter-spacing: 1rem;
 }
 
 .sec {
@@ -274,25 +266,26 @@ footer a:hover {
 
 .sec-title h4 {
     margin: 0;
-    color: rgb(130, 130, 130);
+    color: rgb(140, 140, 140);
     /* font-weight: bold; */
-    font-family: "Cal Sans", sans-serif;
+    font-family: "Righteous", "Cal Sans", sans-serif;
 }
 
 .sec-title h4::after {
     content: "";
-    background-color: rgb(130, 130, 130);
+    background-color: rgb(140, 140, 140);
     width: 100%;
     height: 2px;
     display: block;
     margin-top: 5px;
+    border-radius: 8px;
 }
 
 .sec-blog-card {
     position: relative;
     overflow: hidden;
     border-radius: 10px;
-    color: rgb(255, 255, 255);
+    color: rgb(242, 242, 242);
     height: 400px;
 }
 
@@ -336,10 +329,6 @@ footer a:hover {
     /* font-family: 'Georgia', serif; */
 }
 
-.sec-blog-title a {
-    color: white;
-}
-
 .sec-blog-info {
     position: absolute;
     bottom: 35px;
@@ -364,16 +353,16 @@ footer a:hover {
     left: 0;
     right: 0;
     margin: 0 10px;
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(242, 242, 242);
 }
 
 .like-btn {
-    color: rgb(255, 255, 255);
+    color: rgb(242, 242, 242);
     cursor: pointer;
 }
 
 .like-btn.liked {
-    color: red;
+    color: rgb(211, 47, 47);
 }
 
 .carousel-container {
@@ -421,8 +410,8 @@ footer a:hover {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgb(129, 129, 129);
-    color: #fff;
+    background: rgb(140, 140, 140);
+    color: rgb(242, 242, 242);
     width: 35px;
     height: 35px;
     font-size: 18px;
@@ -462,7 +451,7 @@ footer a:hover {
     width: 100%;
     height: 100%;
     background-color: rgb(0, 0, 0, 0.3);
-    color: white;
+    color: rgb(242, 242, 242);
     font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
@@ -500,18 +489,20 @@ textarea {
 .btn-submit,
 .toBlog a {
     /* width: 100%; */
-    color: rgb(0, 0, 0);
+    color: rgb(242, 242, 242);
     padding: 10px;
     border: none;
     border-radius: 5px;
     /* font-size: 18px; */
     cursor: pointer;
-    background-color: rgb(210, 210, 210);
+    background-color: rgb(140, 140, 140);
+    font-family: "Righteous", "Cal Sans", sans-serif;
+
 }
 
 .btn-submit:hover,
 .toBlog a:hover {
-    background-color: rgb(180, 180, 180);
+    background-color: rgb(165, 165, 165);
 }
 
 
@@ -530,7 +521,7 @@ textarea {
     .footer-menu ul li {
         display: inline-block;
         padding: 0 8px;
-        border-left: 1px solid rgb(215, 215, 215);
+        border-left: 1px solid rgb(242, 242, 242);
     }
 
     .footer-menu ul li:first-child {
@@ -593,7 +584,7 @@ textarea {
     .footer-menu ul li {
         display: inline-block;
         padding: 0 8px;
-        border-left: 1px solid rgb(215, 215, 215);
+        border-left: 1px solid rgb(242, 242, 242);
     }
 
     .footer-menu ul li:first-child {
@@ -610,7 +601,7 @@ textarea {
         /* height: 300px; */
         margin-bottom: 30px;
     }
-    
+
     .sec1 .page-title {
         display: block;
         font-size: xx-large;

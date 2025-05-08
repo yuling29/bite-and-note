@@ -5,26 +5,26 @@
     margin-bottom: 30px;
     justify-content: center;
     align-items: center;
-    
     flex-wrap: wrap;
 }
 
 .tab-button {
     padding: 10px 20px;
-    background-color: rgb(220, 220, 220);
-    color: #000;
+    background-color: rgb(140, 140, 140);
+    color: rgb(242, 242, 242);
     cursor: pointer;
     border-radius: 5px;
     border: none;
+    font-family: "Righteous", "Cal Sans", sans-serif;
     transition: background-color 0.3s ease;
 }
 
 .tab-button:hover {
-    background-color: rgb(180, 180, 180);
+    background-color: rgb(63, 63, 63);
 }
 
 .tab-button.active {
-    background-color: rgb(180, 180, 180);
+    background-color: rgb(63, 63, 63);
 }
 
 .tab-content {
@@ -52,13 +52,4 @@
 }
 .gallery img:hover {
     transform: scale(1.02);
-}
-
-
-
-@media (max-width: 575px) {
-}
-
-@media (min-width: 576px) {
-
 }
